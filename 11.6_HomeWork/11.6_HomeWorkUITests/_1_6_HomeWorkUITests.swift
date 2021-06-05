@@ -42,8 +42,8 @@ class _1_6_HomeWorkUITests: XCTestCase {
         loginTextField.tap()
         loginTextField.typeText("vadim@mail.ru")
         
-        passwordTextField.tap()
-        passwordTextField.typeText("Password1")
+//        passwordTextField.tap()
+//        passwordTextField.typeText("Password1")
         
         loginButton.tap()
         

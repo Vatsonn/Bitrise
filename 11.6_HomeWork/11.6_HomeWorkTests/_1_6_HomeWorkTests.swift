@@ -45,11 +45,11 @@ class _1_6_HomeWorkTests: XCTestCase {
         XCTAssertEqual(emailTextField.keyboardType, UIKeyboardType.emailAddress, "Email Address UITextField does not have Email Keyboard type set")
     }
     
-    func testPasswordTextField_WhenCreated_IsSecureTextEntryField() throws {
-        let passwordTextField = try XCTUnwrap(sut.passwordTextField, "The Password UITextField is not connected")
-        
-        XCTAssertTrue(passwordTextField.isSecureTextEntry, "Password UITextField is not a Secure Text Entry Fieldg")
-    }
+//    func testPasswordTextField_WhenCreated_IsSecureTextEntryField() throws {
+//        let passwordTextField = try XCTUnwrap(sut.passwordTextField, "The Password UITextField is not connected")
+//        
+//        XCTAssertTrue(passwordTextField.isSecureTextEntry, "Password UITextField is not a Secure Text Entry Fieldg")
+//    }
     
     func testHasLoginTextField(){
         XCTAssertNotNil(sut.loginTextField)

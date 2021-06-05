@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Bond",
+        "repositoryURL": "https://github.com/declarativehub/bond.git",
+        "state": {
+          "branch": null,
+          "revision": "146943c0bc03a93c48fb6c57db4e39f4b38ba74b",
+          "version": "7.8.1"
+        }
+      },
+      {
+        "package": "Differ",
+        "repositoryURL": "https://github.com/tonyarnold/Differ.git",
+        "state": {
+          "branch": null,
+          "revision": "4c3eb4d76ad5c14075829397a5741b0badb08dce",
+          "version": "1.4.5"
+        }
+      },
+      {
+        "package": "ReactiveKit",
+        "repositoryURL": "https://github.com/DeclarativeHub/ReactiveKit.git",
+        "state": {
+          "branch": null,
+          "revision": "224225f1b4c062ecfd0707f5e156027579630a79",
+          "version": "3.18.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
